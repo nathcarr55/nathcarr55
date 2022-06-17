@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import os, datetime
 now = datetime.datetime.now().strftime('%Y-%m-%d')
 from alpaca_trade_api.rest import REST, TimeFrame
